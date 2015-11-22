@@ -1903,7 +1903,7 @@
 		header p {
 			position: relative;
 			top: -1em;
-			color: #888888;
+			color: #212121;
 			text-transform: uppercase;
 			letter-spacing: 0.075em;
 		}
@@ -2212,7 +2212,7 @@
 			}
 
 			table.default th {
-				color: #5b5b5b;
+				color: #607D8B;
 				font-size: 0.8em;
 				font-weight: 700;
 				letter-spacing: 0.125em;
@@ -2228,9 +2228,6 @@
 
 /* Button */
 
-	input[type="submit"],
-	input[type="reset"],
-	input[type="button"],
 	.button {
 		-moz-appearance: none;
 		-webkit-appearance: none;
@@ -2240,7 +2237,7 @@
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		background: #544d55;
+		background: #607D8B;
 		border-radius: 4px;
 		border: 0;
 		color: #ffffff;
@@ -2257,53 +2254,32 @@
 		text-transform: uppercase;
 	}
 
-		input[type="submit"]:hover,
-		input[type="reset"]:hover,
-		input[type="button"]:hover,
 		.button:hover {
-			background: #6e6570;
+			background: #607D8B;
 		}
 
-		input[type="submit"]:active,
-		input[type="reset"]:active,
-		input[type="button"]:active,
 		.button:active {
-			background: #474148;
+			background: #607D8B;
 		}
 
-		input[type="submit"].alt,
-		input[type="reset"].alt,
-		input[type="button"].alt,
 		.button.alt {
 			background: none;
 			box-shadow: inset 0 0 0 1px rgba(224, 224, 224, 0.75);
-			color: #544d55;
+			color: #607D8B;
 		}
 
-			input[type="submit"].alt:hover,
-			input[type="reset"].alt:hover,
-			input[type="button"].alt:hover,
 			.button.alt:hover {
 				background: rgba(224, 224, 224, 0.15);
 			}
 
-			input[type="submit"].alt:active,
-			input[type="reset"].alt:active,
-			input[type="button"].alt:active,
 			.button.alt:active {
 				background: rgba(224, 224, 224, 0.35);
 			}
 
-		input[type="submit"].fit,
-		input[type="reset"].fit,
-		input[type="button"].fit,
 		.button.fit {
 			width: 100%;
 		}
 
-		input[type="submit"].small,
-		input[type="reset"].small,
-		input[type="button"].small,
 		.button.small {
 			font-size: 0.8em;
 		}
@@ -2457,7 +2433,7 @@
 
 			#header a:hover {
 				border-bottom-color: transparent;
-				color: #4eb980;
+				color: #2196F3;
 			}
 
 		#header strong, #header b {
@@ -2468,12 +2444,9 @@
 			color: #ffffff;
 		}
 
-		#header input[type="submit"],
-		#header input[type="reset"],
-		#header input[type="button"],
 		#header .button {
 			background: #ffffff;
-			color: #544d55;
+			color: #607D8B;
 		}
 
 		#header .logo {
@@ -2547,26 +2520,17 @@
 			color: rgba(255, 255, 255, 0.5);
 		}
 
-		#footer input[type="submit"],
-		#footer input[type="reset"],
-		#footer input[type="button"],
 		#footer .button {
 			background: #ffffff;
 			box-shadow: inset 0 0 0 1px #ffffff;
-			color: #4eb980;
+			color: #2196F3;
 		}
 
-			#footer input[type="submit"]:hover,
-			#footer input[type="reset"]:hover,
-			#footer input[type="button"]:hover,
 			#footer .button:hover {
 				background: rgba(224, 224, 224, 0.15);
 				color: #ffffff;
 			}
 
-		#footer input[type="text"]:focus,
-		#footer input[type="password"]:focus,
-		#footer input[type="email"]:focus,
 		#footer select:focus,
 		#footer textarea:focus {
 			border-color: #ffffff;
