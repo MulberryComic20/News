@@ -1,5 +1,5 @@
 @import url("font-awesome.min.css");
-@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic");
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans);
 
 /*
 	Directive by HTML5 UP
@@ -1812,7 +1812,7 @@
 
 	body, input, select, textarea {
 		color: #6e6e6e;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Alegreya Sans', sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
 		line-height: 1.75em;
@@ -2564,9 +2564,6 @@
 		}
 
 		#header .logo {
-			background: #4eb980;
-			border-radius: 100%;
-			color: #ffffff;
 			cursor: default;
 			display: inline-block;
 			font-size: 2.25em;
@@ -2576,11 +2573,6 @@
 			text-align: center;
 			width: 2.35em;
 		}
-
-			#header .logo.fa-paper-plane-o:before {
-				left: -0.075em;
-				position: relative;
-			}
 
 		#header h1 {
 			font-size: 2.5em;
